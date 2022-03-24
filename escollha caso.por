@@ -1,31 +1,28 @@
 programa
-{ inteiro idade
+{
+	inteiro numero
 	
 	funcao inicio()
 	{
+		escreva("Digite um numero")
+		leia(numero)
+		
+		escolha(numero){
+		caso 100:
+		escreva("Bom dia")
+		pare
+		
+		caso 200:
+		escreva("Boa tarde")
+		pare
 
-	escreva("Digite sua idade: ")
-	leia(idade)
-	se (idade <16){
-		escreva("\nNão pode votar")
-	}
-	senao
-	se((idade <17) ou(idade >69)){
-		escreva("\nVoto opcinal")
+		caso 300:
+		escreva("Boa noite")
+		pare
+		caso contrario:
+		escreva("numero invalido")
 		}
-	
-	
-	senao
-	se(idade >=18 ){
-		escreva("\nVoto obrigatorio")
-	}
-	senao{
-		escreva("\nVoto opcinal")
-	}
-	/*escreva("\nVoto obrigatório")
-	
-	escreva("\nVoto opcional")*/
-
+			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 282; 
+ * @POSICAO-CURSOR = 267; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
