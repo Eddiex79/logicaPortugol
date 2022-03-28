@@ -1,17 +1,23 @@
 programa
 {
+	inteiro numero 
 	funcao inicio()
 	{
-	inteiro numero[10]
+		escreva("Digite um número: ")
+		leia(numero)
 		
-	
-	para(inteiro i = 0; i < 10; i++){
-		leia(numero[i])
-	
-		escreva("\nLetra A\n")
-		para (inteiro y = 0; y < 10; y++){
-			escreva(numero[y], " - ")
-		}
+		escolha (numero){
+		caso 100:
+		escreva("Bom dia")
+		pare
+		caso 200:
+		escreva("Boa tarde")
+		pare
+		caso 300:
+		escreva("Boa noie")
+		pare
+		caso contrario:
+		escreva("Número invalido")
 	}
 }
 }
@@ -20,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 55; 
+ * @POSICAO-CURSOR = 81; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
