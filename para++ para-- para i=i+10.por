@@ -1,21 +1,28 @@
 programa
 {
-	inteiro i
+	
 	funcao inicio()
 	{
-          // Incrementando 
-          para(i = 0; i<100; i++)
-          /*Pular de 10 em 10
-           para (i =100 ; i < 150; i= i+10)
-          + porém se eu quiser decrementar adiciono sinal de - subtração*/
-	     //para (i =150 ; i >0;i--)
-	     {
-		escreva("Mumero da Matricula\n", i)
-		}
+          
+		inteiro numero[10]
+		//Lendo o armazenamento no vetor 
+	para (inteiro i = 0 ; i < 10; i++){
+		escreva(numero[])
 		
+		}
+		//Letra A- Ordem digitada
+		escreva("\nLetra A\n")
+		para (inteiro y = 0; y < 10; y++){
+		escreva(numero[y], "-")
+		}
 
-
-
+		//Letra B  Ordem inversa
+		escreva("\nLetra B\n")
+		para (inteiro y = 9; y < 0; y--){
+		escreva(numero[y], "-")
+		
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,8 +30,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 182; 
- * @PONTOS-DE-PARADA = ;
+ * @POSICAO-CURSOR = 414; 
+ * @PONTOS-DE-PARADA = 7, 10;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
